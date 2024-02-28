@@ -66,7 +66,7 @@ const CheckoutStepper = ({stepsConfig = []}) => {
         <div
           className="progress-bar"
           style={{
-            width: `calc(100%-${margins.marginLeft + margins.marginRight}px)`,
+            width: `calc(100% - ${margins.marginLeft + margins.marginRight}px)`,
             marginLeft: margins.marginLeft,
             marginRight: margins.marginRight,
           }}
